@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.first_section {
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+
+.second_section {
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
+
+.third_section {
+    height: 100%;
+    width: 100%;
+    background: orange;
+}
