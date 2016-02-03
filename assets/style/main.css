@@ -28,17 +28,30 @@ html, body {
 .first_section {
     height: 100%;
     width: 100%;
-    background: red;
+    background: #F5D76E;
 }
 
 .second_section {
     height: 100%;
     width: 100%;
-    background: blue;
+    background: #F4D03F;
 }
 
 .third_section {
     height: 100%;
     width: 100%;
-    background: orange;
+    background: #F7CA18;
+}
+
+
+.onepage-pagination li a {
+    padding: 10.5px !important;
+}
+
+.onepage-pagination li a:before {
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.onepage-pagination li a.active:before {
+    border: 1px solid white !important;
 }
