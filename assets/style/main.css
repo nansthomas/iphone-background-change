@@ -30,7 +30,7 @@ html, body {
     top: 0;
     bottom: 0;
     left: 0;
-    right: 390px;
+    right: 30%;
     margin: auto;
     width: 310px;
     height: 130px;
@@ -56,19 +56,19 @@ p {
 .first_section {
     height: 100%;
     width: 100%;
-    background: #F5D76E;
+    background: #F1A9A0;
 }
 
 .second_section {
     height: 100%;
     width: 100%;
-    background: #F4D03F;
+    background: #E08283;
 }
 
 .third_section {
     height: 100%;
     width: 100%;
-    background: #F7CA18;
+    background: #E26A6A;
 }
 
 
