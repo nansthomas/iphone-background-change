@@ -3,6 +3,16 @@ html, body {
     width: 100%;
 }
 
+.iphone {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 70%;
+}
+
 .first_section {
     height: 100%;
     width: 100%;
