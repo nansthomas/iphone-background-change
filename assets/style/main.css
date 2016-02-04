@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Bariol;
+    src: url(../fonts/Bariol-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bariol-Bold;
+    src: url(../fonts/Bariol-Bold.ttf);
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -7,7 +18,7 @@ html, body {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 30%;
+    left: 20%;
     right: 0;
     margin: auto;
     height: 70%;
@@ -18,7 +29,7 @@ html, body {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 30%;
+    left: 20%;
     right: 0;
     margin: auto;
     height: 53%;
@@ -37,32 +48,47 @@ html, body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Bariol';
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Bariol';
     color: white;
-    font-size: 13px;
-    line-height: 18px;
-    text-align: justify;
+    font-size: 17px;
+    text-align: right;
     margin-top: 7px;
+}
+
+p.number {
+    font-size: 70px;
+    margin-top: 0px;
 }
 
 .first_section {
     height: 100%;
     width: 100%;
-    background: #F1A9A0;
+    background: #881B64;
+}
+
+#first {
+    width: 75%;
+    position: absolute;
+    right: 0;
+    bottom: -134px;
 }
 
 .second_section {
     height: 100%;
     width: 100%;
-    background: #E08283;
+    background: #F7E19B;
+}
+
+#second {
+
 }
 
 .third_section {
@@ -82,4 +108,17 @@ p {
 
 .onepage-pagination li a.active:before {
     border: 1px solid white !important;
+}
+
+
+#Page-1 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1001;
+    animation: dash 30s linear forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
