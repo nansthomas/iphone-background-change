@@ -175,6 +175,38 @@ p.number {
     margin: auto;
     height: 60%;
     width: 22%;
+    z-index: 3;
+}
+
+#heart-1 {
+    position: absolute;
+    top: 9%;
+    bottom: 0;
+    left: 54%;
+    right: 0;
+    margin: auto;
+    height: 60%;
+    width: 5%;
+    z-index: 2;
+    animation-name: hearter;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    /*transform: rotate(0deg);*/
+}
+
+@keyframes hearter {
+    0% {
+        opacity: 0%;
+    }
+    6% {
+        opacity: 100%;
+        transform: rotate(0deg) translate3d(0px,0px,0px);
+    }
+    50% {
+        transform: rotate(0deg) translate3d(0px,0px,0px)
+    }
 }
 
 /*PAGINATION*/

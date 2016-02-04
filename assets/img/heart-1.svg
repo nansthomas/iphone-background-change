@@ -1,0 +1,14 @@
+<svg wid="heart-1" width="73px" height="68px" viewBox="0 0 73 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-15" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-986.000000, -423.000000)">
+            <g id="Page-15" sketch:type="MSLayerGroup" transform="translate(968.000000, 324.000000)">
+                <g id="coeurs" transform="translate(0.000000, 102.000000)" sketch:type="MSShapeGroup">
+                    <g id="heart-1" transform="translate(21.000000, 0.000000)">
+                        <path d="M63.1687,27.9414 C65.3917,26.0824 66.7367,21.5434 66.7367,17.6014 C66.7367,8.1604 59.0727,0.5464 49.6457,0.5464 C42.0967,0.5464 35.7077,5.4644 33.4287,12.2424 C31.1607,5.4644 24.7777,0.5974 17.2427,0.5974 C7.7957,0.5974 0.1377,8.2504 0.1377,17.7034 C0.1377,21.3864 0.9697,24.8824 2.9457,27.5934 L33.4287,61.3364 L61.4817,30.0354 C62.1007,29.4374 62.6477,28.7224 63.1627,28.0464 L63.1687,27.9414 Z" id="Fill-173" fill="#881A64"></path>
+                        <path d="M63.1687,27.9414 C65.3917,26.0824 66.7367,21.5434 66.7367,17.6014 C66.7367,8.1604 59.0727,0.5464 49.6457,0.5464 C42.0967,0.5464 35.7077,5.4644 33.4287,12.2424 C31.1607,5.4644 24.7777,0.5974 17.2427,0.5974 C7.7957,0.5974 0.1377,8.2504 0.1377,17.7034 C0.1377,21.3864 0.9697,24.8824 2.9457,27.5934 L33.4287,61.3364 L61.4817,30.0354 C62.1007,29.4374 62.6477,28.7224 63.1627,28.0464 L63.1687,27.9414 L63.1687,27.9414 Z" id="Stroke-175" stroke="#881A64" stroke-width="5.526" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
