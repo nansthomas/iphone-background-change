@@ -141,39 +141,23 @@ p.number {
     width: 100%;
 }
 
-#clouds-1 {
-    top: 0%;
+#clouds {
+    top: 4%;
+    height: 23%;
     position: absolute;
-    width: 100%;
-    transform: translate3d(-50%,0,0);
-    animation: cloudy 15s linear infinite;
+    transform: translate3d(-19%,0,0);
+    animation-name: cloudy;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: paused;
 }
 
 @keyframes cloudy {
     to {
-        transform: translate3d(100%,0,0)
+        transform: translate3d(-10%,0,0)
     }
-}
-
-#clouds-2 {
-    top: 0%;
-    position: absolute;
-    width: 100%;
-    transform: translate3d(50%,0,0);
-    animation: cloudy2 15s linear infinite;
-}
-
-@keyframes cloudy2 {
-    30% {
-        transform: translate3d(100%,0,0);
-    }
-    31% {
-        transform: translate3d(-100%,0,0);
-    }
-    100% {
-        transform: translate3d(50%,0,0);
-    }
-
 }
 
 /*PAGINATION*/

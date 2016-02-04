@@ -411,10 +411,13 @@
             beforeMove: function(index) {
                 if (body.classList == 'viewing-page-1') {
                     screen.src = 'assets/img/screen1.jpg';
+                    clouds.style.animationPlayState = "paused";
                 } else if (body.classList == 'viewing-page-2') {
                     screen.src = 'assets/img/screen2.jpg';
+                    clouds.style.animationPlayState = "paused";
                 } else if (body.classList == 'viewing-page-3') {
                     screen.src = 'assets/img/screen3.jpg';
+                    clouds.style.animationPlayState = "running";
                 }
             }, // This option accepts a callback function. The function will be called before the page moves.
             afterMove: function(index) {}, // This option accepts a callback function. The function will be called after the page moves.
