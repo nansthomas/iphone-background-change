@@ -85,6 +85,7 @@ p.number {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1001;
     animation: dash 30s linear forwards;
+    animation-play-state: running;
 }
 
 @keyframes dash {
@@ -158,6 +159,22 @@ p.number {
     to {
         transform: translate3d(-10%,0,0)
     }
+}
+
+.four_section {
+    height: 100%;
+    width: 100%;
+    background: #A01E72;
+}
+
+#hand {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 60%;
+    width: 22%;
 }
 
 /*PAGINATION*/
