@@ -81,36 +81,6 @@ p.number {
     bottom: -134px;
 }
 
-.second_section {
-    height: 100%;
-    width: 100%;
-    background: #F7E19B;
-}
-
-#second {
-
-}
-
-.third_section {
-    height: 100%;
-    width: 100%;
-    background: #E26A6A;
-}
-
-
-.onepage-pagination li a {
-    padding: 10.5px !important;
-}
-
-.onepage-pagination li a:before {
-    background: rgba(255, 255, 255, 0.85) !important;
-}
-
-.onepage-pagination li a.active:before {
-    border: 1px solid white !important;
-}
-
-
 #Page-1 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1001;
@@ -121,6 +91,12 @@ p.number {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+.second_section {
+    height: 100%;
+    width: 100%;
+    background: #F7E19B;
 }
 
 #bouteille-1 {
@@ -151,4 +127,65 @@ p.number {
     position: absolute;
     left: 70%;
     top: 55%;
+}
+
+.third_section {
+    height: 100%;
+    width: 100%;
+    background: #E7235B;
+}
+
+#city {
+    bottom: -5%;
+    position: absolute;
+    width: 100%;
+}
+
+#clouds-1 {
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    transform: translate3d(-50%,0,0);
+    animation: cloudy 15s linear infinite;
+}
+
+@keyframes cloudy {
+    to {
+        transform: translate3d(100%,0,0)
+    }
+}
+
+#clouds-2 {
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    transform: translate3d(50%,0,0);
+    animation: cloudy2 15s linear infinite;
+}
+
+@keyframes cloudy2 {
+    30% {
+        transform: translate3d(100%,0,0);
+    }
+    31% {
+        transform: translate3d(-100%,0,0);
+    }
+    100% {
+        transform: translate3d(50%,0,0);
+    }
+
+}
+
+/*PAGINATION*/
+
+.onepage-pagination li a {
+    padding: 10.5px !important;
+}
+
+.onepage-pagination li a:before {
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.onepage-pagination li a.active:before {
+    border: 1px solid white !important;
 }
