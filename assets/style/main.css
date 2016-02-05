@@ -74,23 +74,81 @@ p.number {
     background: #881B64;
 }
 
-#first {
-    width: 75%;
+#chemin {
+    transform: scale(0.7);
     position: absolute;
-    right: 0;
-    bottom: -134px;
+    bottom: -125px;
+    right: -213px;
 }
 
-#Page-1 {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1001;
-    animation: dash 30s linear forwards;
-    animation-play-state: running;
+#mini-chemin {
+    stroke-dasharray: 358.0533142089844;
+    stroke-dashoffset: 358.0533142089844;
+    animation: chemin 2s linear forwards;
 }
 
-@keyframes dash {
+#big-chemin {
+    stroke-dasharray: 1835.892333984375;
+    stroke-dashoffset: 1835.892333984375;
+    animation: chemin 7s linear forwards;
+}
+
+@keyframes chemin {
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+#icon-shop-3 {
+    opacity: 0;
+    animation: appear 1s linear forwards;
+}
+
+#icon-shop-2 {
+    opacity: 0;
+    animation: appear 1s linear forwards;
+    animation-delay: 5.5s;
+}
+
+#icon-shop-1 {
+    opacity: 0;
+    animation: appear 1s linear forwards;
+    animation-delay: 0.5s;
+}
+
+#icon-geoloc {
+    opacity: 0;
+    animation: appear 1s linear forwards;
+    animation-delay: 0.2s;
+}
+
+#icon-bottle-3 {
+    opacity: 0;
+    animation: appear 0.1s linear forwards;
+    animation-delay: 3.43s;
+}
+
+#icon-bottle-2 {
+    opacity: 0;
+    animation: appear 0.1s linear forwards;
+    animation-delay: 4.8s;
+}
+
+#icon-bottle-1 {
+    opacity: 0;
+    animation: appear 0.1s linear forwards;
+    animation-delay: 4.95s;
+}
+
+#icon-house {
+    opacity: 0;
+    animation: appear 0.1s linear forwards;
+    animation-delay: 2s;
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
     }
 }
 
@@ -149,7 +207,7 @@ p.number {
     transform: translate3d(-19%,0,0);
     animation-name: cloudy;
     animation-timing-function: linear;
-    animation-duration: 20s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: paused;
@@ -178,35 +236,15 @@ p.number {
     z-index: 3;
 }
 
-#heart-1 {
-    position: absolute;
-    top: 9%;
-    bottom: 0;
-    left: 54%;
-    right: 0;
-    margin: auto;
-    height: 60%;
-    width: 5%;
-    z-index: 2;
-    animation-name: hearter;
-    animation-timing-function: linear;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-    /*transform: rotate(0deg);*/
+.five_section {
+    height: 100%;
+    width: 100%;
+    background: #943674;
 }
 
-@keyframes hearter {
-    0% {
-        opacity: 0%;
-    }
-    6% {
-        opacity: 100%;
-        transform: rotate(0deg) translate3d(0px,0px,0px);
-    }
-    50% {
-        transform: rotate(0deg) translate3d(0px,0px,0px)
-    }
+#pattern {
+    width: 100%;
+    opacity: 0.06;
 }
 
 /*PAGINATION*/
